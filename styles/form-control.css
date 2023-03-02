@@ -58,7 +58,7 @@ input.form-control {
   right: 0.5rem;
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(icons/arrow-drop-down.svg);
+  background-image: url(../icons/arrow-drop-down.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,7 +104,7 @@ input.form-control {
   padding: 5px;
   width: 24px;
   height: 24px;
-  background-image: url(icons/black-cross.svg);
+  background-image: url(../icons/black-cross.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

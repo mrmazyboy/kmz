@@ -283,7 +283,7 @@ nav .main-nav__list {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(images/equipments-bg.jpg);
+  background: url(../images/equipments-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
