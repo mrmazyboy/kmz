@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Geometria";
+  src: url("Geometria-Regular.eot");
+  src: url("Geometria-Regular.eot") format("embedded-opentype"),
+    url("Geometria-Regular.woff2") format("woff2"),
+    url("Geometria-Regular.woff") format("woff"),
+    url("Geometria-Regular.ttf") format("truetype"),
+    url("Geometria-Regular.svg#Geometria-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("Geometria-Medium.eot");
+  src: url("Geometria-Medium.eot") format("embedded-opentype"),
+    url("Geometria-Medium.woff2") format("woff2"),
+    url("Geometria-Medium.woff") format("woff"),
+    url("Geometria-Medium.ttf") format("truetype"),
+    url("Geometria-Medium.svg#Geometria-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("Geometria-Bold.eot");
+  src: url("Geometria-Bold.eot") format("embedded-opentype"),
+    url("Geometria-Bold.woff2") format("woff2"),
+    url("Geometria-Bold.woff") format("woff"),
+    url("Geometria-Bold.ttf") format("truetype"),
+    url("Geometria-Bold.svg#Geometria-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("Geometria-Heavy.eot");
+  src: url("Geometria-Heavy.eot") format("embedded-opentype"),
+    url("Geometria-Heavy.woff2") format("woff2"),
+    url("Geometria-Heavy.woff") format("woff"),
+    url("Geometria-Heavy.ttf") format("truetype"),
+    url("Geometria-Heavy.svg#Geometria-Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}

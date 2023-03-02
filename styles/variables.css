@@ -1,0 +1,25 @@
+:root {
+  /* colors */
+  --color-black: #16122b;
+  --color-black-light: #524e63;
+  --color-black-lighter: #a9a7af;
+
+  --color-warning: #eb7d40;
+  --color-warning-dark: #d6713b;
+
+  --color-blue: #4234ee;
+
+  --color-success: #3cad29;
+
+  --color-white: #ffffff;
+  --color-white-dark: #f4f4f4;
+  --color-white-darker: #ebeaf0;
+
+  /* fonts */
+  --geometria-font: "Geometria", sans-serif;
+
+  /* timing functions */
+  --ease-in: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
+  --transition: all 0.2s var(--ease-in) 0s;
+}

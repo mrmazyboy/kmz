@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Каталог техники</title>
+  </head>
+  <body>
+    <header class="header _container">
+      <nav class="main-nav header__main-nav">
+        <a href="index.html" class="logo main-nav__logo">
+          <img src="/icons/logo.svg" width="165" height="38" alt="Логотип" />
+        </a>
+        <ul class="main-nav__list js-header-list">
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-item-link _active">Каталог</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a href="company.html" class="main-nav__list-item-link"
+              >О компании</a
+            >
+          </li>
+          <li class="main-nav__list-item">
+            <a href="contacts.html" class="main-nav__list-item-link"
+              >Контакты</a
+            >
+          </li>
+          <li class="main-nav__list-item">
+            <div class="main-nav__contacts _mobile">
+              <a href="tel:+79172940792" class="main-nav__contacts-phone">
+                +7 (917) 294-07-92
+              </a>
+              <a
+                href="mailto:director@advanta.ru"
+                class="main-nav__contacts-email"
+              >
+                director@advanta.ru
+              </a>
+            </div>
+          </li>
+          <li class="main-nav__list-item">
+            <a href="#" class="button button-70 button-primary main-nav__button js-request-call-button _mobile"
+            >Заказать звонок</a
+          >
+          </li>
+        </ul>
+        <div class="main-nav__box">
+          <div class="main-nav__contacts">
+            <a href="tel:+79172940792" class="main-nav__contacts-phone">
+              +7 (917) 294-07-92
+            </a>
+            <a
+              href="mailto:director@advanta.ru"
+              class="main-nav__contacts-email"
+            >
+              director@advanta.ru
+            </a>
+          </div>
+          <a href="#" class="button button-70 button-primary main-nav__button js-request-call-button"
+            >Заказать звонок</a
+          >
+        </div>
+        <div class="main-nav__burger burger">
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Каталог имеющейся техники</h1>
+      <ul class="breadcrumb _container">
+        <li class="breadcrumb__item">
+          <a href="index.html" class="breadcrumb__item-link">Главная</a>
+        </li>
+        <li class="breadcrumb__item">
+          <a href="catalog.html" class="breadcrumb__item-link"
+            >Каталог техники</a
+          >
+        </li>
+        <li class="breadcrumb__item">
+          <a href="catalog.html" class="breadcrumb__item-link">Самосвалы</a>
+        </li>
+        <li class="breadcrumb__item">
+          КАМАЗ 68901Е самосвал 3-х сторонний 5200мм. без полога СпецАвтоКам на
+          шасси 65115-773082-50
+        </li>
+      </ul>
+      <div class="product _container">
+        <div class="product__columns">
+          <div class="product__left">
+            <div class="product__label">
+              КАМАЗ 68901Е самосвал 3-х сторонний 5200мм. без полога СпецАвтоКам на шасси 65115-773082-50
+            </div>
+            <div class="product__wrap">
+              <div class="product__price">
+                4 500 000 ₽
+              </div>
+              <div class="product__text">
+                В связи с волатильностью рынка актуальную цену уточняйте у менеджера
+              </div>
+            </div>
+            <a href="#" class="button button-60 button-primary product__button">Заказать</a>
+          </div>
+          <div class="product__right">
+            <div class="gallery-slider">
+              <div class="slides gallery-slider__slides">
+                <div class="slides__item">
+                  <img src="/images/auto-tanker.png" alt="">
+                </div>
+  
+                <div class="slides__item">
+                  <img src="https://images.unsplash.com/photo-1433256392503-913cee5877e3?auto=format&fit=crop&w=840&q=60" alt="" />
+                </div>
+  
+                <div class="slides__item">
+                  <img src="https://images.unsplash.com/photo-1483653085484-eb63c9f02547?auto=format&fit=crop&w=840&q=60" alt="" />
+                </div>
+              </div>
+              <div class="thumbnails gallery-slider__thumbnails">
+                <div class="thumbnails__item">
+                  <img class="demo cursor" src="/images/auto-tanker.png" onclick="currentSlide(1)" alt="" />
+                  <span class="backdrop"></span>
+                  <span class="eye"></span>
+                </div>
+                <div class="thumbnails__item">
+                  <img class="demo cursor" src="https://images.unsplash.com/photo-1433256392503-913cee5877e3?auto=format&fit=crop&w=840&q=60" onclick="currentSlide(2)" alt="" />
+                  <span class="backdrop"></span>
+                  <span class="eye"></span>
+                </div>
+                <div class="thumbnails__item">
+                  <img class="demo cursor" src="https://images.unsplash.com/photo-1483653085484-eb63c9f02547?auto=format&fit=crop&w=840&q=60"  onclick="currentSlide(3)" alt="" />
+                  <span class="backdrop"></span>
+                  <span class="eye"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-description _container">
+        <div class="tabs product-description__tabs">
+          <div class="tabs__item">
+            <input type="radio" id="characteristics" name="detailed-info" value="characteristics" checked>
+            <label for="characteristics" class="tabs__item">Описание и Характеристики</label>
+          </div>
+          <div class="tabs__item">
+            <input type="radio" id="certificates" name="detailed-info" value="certificates">
+            <label for="certificates" class="tabs__item">Сертификаты</label>
+          </div>
+        </div>
+        <div id="characteristics-content" class="product-description__content _active">
+          <div class="product-description__box">
+            <h2 class="title product-description__title">Описание</h2>
+            <div class="product-description__columns">
+              <div class="product-description__left">
+                <h3 class="subtitle product-description__subtitle">Шасси</h3>
+                <div class="product-description__info">
+                  Описание:<br>
+                  МКБ, МОБ<br>
+                  дв. КАМАЗ 740.705-300 (Е-5)<br>
+                  ТНВД BOSCHсистема нейтрализ. ОГ(AdBlue)<br>
+                  топл. ап. BOSCH<br>
+                  Common Rail<br>
+                  ДЗК<br>
+                  УВЭОС
+                </div>
+              </div>
+              <div class="product-description__right">
+                <h3 class="subtitle product-description__subtitle">Надстройка</h3>
+                <div class="product-description__info">
+                  Самосвальная установка прямоугольного сечения 10 м3.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-description__box">
+            <h2 class="title product-description__title">Характеристики</h2>
+            <div class="product-description__columns">
+              <div class="product-description__left">
+                <h3 class="subtitle product-description__subtitle">Шасси</h3>
+                <div class="product-description__group">
+                  <div class="product-description__label">Тип двигателя</div>
+                  <div class="product-description__text">KAMAZ</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Тип кабины</div>
+                  <div class="product-description__text">Со спальным местом</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Экологический класс</div>
+                  <div class="product-description__text">Евро-5</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Колесная формула</div>
+                  <div class="product-description__text">6х6</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">КПП</div>
+                  <div class="product-description__text">KAMAZ 154</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Мощность двигателя, л.с.</div>
+                  <div class="product-description__text">300</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Колесная база, мм</div>
+                  <div class="product-description__text">3690, 1320</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Топливный бак, л</div>
+                  <div class="product-description__text">210</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Передаточное отношение главной передачи</div>
+                  <div class="product-description__text">6,53</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Полная масса, кг</div>
+                  <div class="product-description__text">22500</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Новый или б/у</div>
+                  <div class="product-description__text">Новый</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Год выпуска</div>
+                  <div class="product-description__text">2022</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Монтажная длина рамы, м</div>
+                  <div class="product-description__text">5000-6000</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Тип топлива</div>
+                  <div class="product-description__text">Дизель</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Модель</div>
+                  <div class="product-description__text">43118</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Марка техники</div>
+                  <div class="product-description__text">КАМАЗ</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Модификация</div>
+                  <div class="product-description__text">3973-50</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Страна предложения</div>
+                  <div class="product-description__text">Array</div>
+                </div>
+              </div>
+              <div class="product-description__right">
+                <h3 class="subtitle product-description__subtitle">Надстройка</h3>
+                <div class="product-description__group">
+                  <div class="product-description__label">Страна предложения</div>
+                  <div class="product-description__text">Array</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">№ ОТТС</div>
+                  <div class="product-description__text">ТС RU Е-RU.МР03.01073</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Срок действия ОТТС</div>
+                  <div class="product-description__text">31.12.2021</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Срок поставки</div>
+                  <div class="product-description__text">20</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Валюта цен надстройки</div>
+                  <div class="product-description__text">RUB</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Модель</div>
+                  <div class="product-description__text">43118</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Объем платформы, м3</div>
+                  <div class="product-description__text">10-12</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Направление разгрузки</div>
+                  <div class="product-description__text">Назад</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Город</div>
+                  <div class="product-description__text">Абаза</div>
+                </div>
+                <div class="product-description__group">
+                  <div class="product-description__label">Произодитель</div>
+                  <div class="product-description__text">ООО АВТОРОСТ</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="certificates-content" class="product-description__content">
+          <div class="product-description__box">
+            certificates
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer _container">
+      <nav class="main-nav footer__main-nav">
+        <a href="#" class="logo main-nav__logo">
+          <img src="/icons/logo.svg" width="165" height="38" alt="Логотип" />
+        </a>
+        <ul class="main-nav__list">
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-item-link _active">Каталог</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a href="company.html" class="main-nav__list-item-link"
+              >О компании</a
+            >
+          </li>
+          <li class="main-nav__list-item">
+            <a href="contacts.html" class="main-nav__list-item-link"
+              >Контакты</a
+            >
+          </li>
+        </ul>
+        <div class="main-nav__box">
+          <div class="main-nav__contacts">
+            <a href="tel:+79172940792" class="main-nav__contacts-phone">
+              +7 (917) 294-07-92
+            </a>
+            <a
+              href="mailto:director@advanta.ru"
+              class="main-nav__contacts-email"
+            >
+              director@advanta.ru
+            </a>
+          </div>
+          <a href="#" class="button button-60 button-primary main-nav__button js-request-call-button"
+            >Заказать звонок</a
+          >
+        </div>
+      </nav>
+      <div class="footer__columns">
+        <div class="footer__column-left">
+          <address class="footer__address">
+            423827 РФ, Республика Татарстан, г. Набережные Челны, улица
+            Машиностроительная 78
+          </address>
+          <p class="footer__copyright">© ООО «АДВАНТА» 2023</p>
+        </div>
+        <div class="footer__column-right">
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link _whatsapp">
+              <img
+                src="icons/whatsapp.svg"
+                width="28"
+                height="28"
+                alt="whatsap"
+              />
+            </a>
+            <a href="#" class="footer__social-link _vk">
+              <img src="icons/vk.svg" width="28" height="28" alt="vkontakte" />
+            </a>
+            <a href="#" class="footer__social-link _telegram">
+              <img
+                src="icons/telegram.svg"
+                width="28"
+                height="28"
+                alt="telegram"
+              />
+            </a>
+          </div>
+          <p class="footer__made-by">
+            Сделано в
+            <a href="https://dilectum.ru" class="footer__made-by-link">
+              Dilectum
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div class="modal">
+      <div id="order-modal" class="modal-dialog">
+        <button id="modal-btn" class="modal-dialog__close">
+          <img src="icons/white-cross.svg" width="24" height="24" alt="close" />
+        </button>
+        <div class="modal__content">
+          <h2 class="modal__title">Заказать звонок</h2>
+          <form class="modal__form">
+            <div class="form-select modal__form-select">
+              <div class="form-select__label">Удобное время для звонка</div>
+              <div class="form-select__text-field">
+                <span>Выберите удобное время</span>
+              </div>
+              <ul class="form-select__list" style="display: none">
+                <li class="form-select__item">В ближайшее время</li>
+                <li class="form-select__item">В ближайшее время 2</li>
+              </ul>
+            </div>
+            <div class="form-group modal__form-group">
+              <div class="form-label">Телефон</div>
+              <input type="text" class="form-control" placeholder="+7" />
+            </div>
+            <div class="form-group modal__form-group">
+              <div class="form-label">Как к вам обращаться</div>
+              <input type="text" class="form-control" placeholder="Имя" />
+            </div>
+            <button
+              type="button"
+              class="button button-40 button-primary modal__button modal__button_order"
+            >
+              Заказать
+            </button>
+          </form>
+        </div>
+      </div>
+      <div id="success-modal" class="modal-dialog _big">
+        <button id="modal-btn" class="modal-dialog__close">
+          <img src="icons/white-cross.svg" width="24" height="24" alt="close" />
+        </button>
+        <div class="modal__content">
+          <h2 class="modal__title">Спасибо за обращение, ваш запрос принят!</h2>
+          <p class="modal__text">
+            Наш менеджер свяжется с вами в указанное время
+          </p>
+        </div>
+      </div>
+      <div id="equipment-order-modal" class="modal-dialog">
+        <button id="modal-btn" class="modal-dialog__close">
+          <img src="icons/white-cross.svg" width="24" height="24" alt="close" />
+        </button>
+        <div class="modal__content">
+          <h2 class="modal__title">Заказать звонок</h2>
+          <form class="modal__form">
+            <div class="form-group modal__form-group">
+              <div class="form-label">Телефон</div>
+              <input type="text" class="form-control" placeholder="+7" />
+            </div>
+            <div class="form-group modal__form-group">
+              <div class="form-label">Как к вам обращаться</div>
+              <input type="text" class="form-control" placeholder="Имя" />
+            </div>
+            <div class="form-select modal__form-select">
+              <div class="form-select__label">Регион</div>
+              <div class="form-select__text-field">
+                <span>Выберите регион</span>
+              </div>
+              <ul class="form-select__list" style="display: none">
+                <li class="form-select__item">Регион 1</li>
+                <li class="form-select__item">Регион 2</li>
+              </ul>
+            </div>
+            <div class="form-select modal__form-select">
+              <div class="form-select__label">Город</div>
+              <div class="form-select__text-field">
+                <span>Выберите город</span>
+              </div>
+              <ul class="form-select__list" style="display: none">
+                <li class="form-select__item">Город 1</li>
+                <li class="form-select__item">Город 2</li>
+              </ul>
+            </div>
+            <button
+              type="button"
+              class="button button-40 button-primary modal__button modal__button_order"
+            >
+              Оставить заявку
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
